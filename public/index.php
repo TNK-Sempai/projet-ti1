@@ -10,12 +10,10 @@ if(!isset($_GET['p'])){
     // nous sommes sur l'accueil
     // chargement de view/homepage.php 
     include ROOTH_PATH."/view/homepage.php";
-}
-elseif(in_array($_get['p'], ARRAY_VALID_PAGES)){
+}elseif(in_array($_GET['p'], ARRAY_VALID_PAGES)){
     // inclusion de la vue autorisée 
     include ROOTH_PATH."/view/".$_GET['p'].".php";
-}
-else{
+}else{
     include ROOTH_PATH."/view/error404.php"; 
 }
 

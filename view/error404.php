@@ -16,8 +16,7 @@
         <section style="text-align: center; margin-top: 10vh;">
             <h1>Error 404</h1>
             <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">
-                Spécialisé dans l'écosystème PHP (Symfony) et JavaScript (React). 
-                Je conçois des API robustes et des interfaces dynamiques en m'appuyant sur une logique analytique stricte.
+                Cette page n'existe pas. 
             </p>
             <a href="./" class="btn btn-primary">Retour à l'accueil</a>
         </section>
