@@ -11,6 +11,13 @@ if(!isset($_GET['p'])){
     // chargement de view/homepage.php 
     include ROOTH_PATH."/view/homepage.php";
 }
+elseif(in_array($_get['p'], ARRAY_VALID_PAGES)){
+    // inclusion de la vue autorisée 
+    include ROOTH_PATH."/view/".$_GET['p'].".php";
+}
+else{
+    include ROOTH_PATH."/view/error404.php"; 
+}
 
 /* affichage des pages acceptées 
 // Test de la const racine 
