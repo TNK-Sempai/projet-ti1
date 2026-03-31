@@ -1,9 +1,21 @@
 <?php
 # Public/index.php 
 require_once '../config.php';
-echo"Racine du projet : " . ROOTH_PATH . "<br>"; 
 
+// Routage entre les diverses vues 
+
+//  Non existence de la variable 
+// $_GET nommée 'p'
+if(!isset($_GET['p'])){
+    // nous sommes sur l'accueil
+    // chargement de view/homepage.php 
+    include ROOTH_PATH."/view/homepage.php";
+}
+
+/* affichage des pages acceptées 
+// Test de la const racine 
+echo"Racine du projet : " . ROOTH_PATH . "<br>"; 
 echo"<pre>";
 print_r(ARRAY_VALID_PAGES);
 echo"</pre>";
-
+*/
