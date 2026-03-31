@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Développeur PHP/React</title>
+    <title>Portfolio - Projets</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
         <div class="grid-3">
             
             <div class="card">
-                <img src="images/projet1.jpg" alt="Dashboard Géopolitique">
+                <img src="..\public\img\projet1.jpg" alt="Dashboard Géopolitique">
                 <div class="card-content">
                     <h3>API DataGéo Mondiale</h3>
                     <p style="margin: 1rem 0; font-size: 0.95rem;">Création d'une API sous Symfony fournissant des données macro-géographiques et géopolitiques. Intégration d'une base PostgreSQL complexe et authentification JWT.</p>
