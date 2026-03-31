@@ -17,7 +17,7 @@
         <div class="grid-3">
             
             <div class="card">
-                <img src="..\public\img\projet1.jpg" alt="Dashboard Géopolitique">
+                <img src="img/projet1.jpg" alt="Dashboard Géopolitique">
                 <div class="card-content">
                     <h3>API DataGéo Mondiale</h3>
                     <p style="margin: 1rem 0; font-size: 0.95rem;">Création d'une API sous Symfony fournissant des données macro-géographiques et géopolitiques. Intégration d'une base PostgreSQL complexe et authentification JWT.</p>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="card">
-                <img src="images/projet2.jpg" alt="Interface Labo Chimie">
+                <img src="img/projet2.jpg" alt="Interface Labo Chimie">
                 <div class="card-content">
                     <h3>ReactQuant Interface</h3>
                     <p style="margin: 1rem 0; font-size: 0.95rem;">Application SPA en React simulant les modèles de désintégration en physique. Consommation d'API asynchrone et gestion d'états complexes.</p>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="card">
-               <img src="images/projet3.jpg" alt="E-commerce">
+               <img src="img/projet3.jpg" alt="E-commerce">
                 <div class="card-content">
                     <h3>E-Commerce Headless</h3>
                     <p style="margin: 1rem 0; font-size: 0.95rem;">Séparation totale du front et du back. Backend natif PHP gérant le CRUD des produits (SQL), couplé à un panier dynamique en Vanilla JS.</p>
