@@ -7,21 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
-        <nav>
-            <a href="index.html" class="logo">DevPortfolio</a>
-            <button class="menu-toggle">☰</button>
-            <ul class="nav-links">
-                <li><a href="./" class="active">Accueil</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
-                <li><a href="competences.html">Compétences</a></li>
-                <li><a href="projets.html">Projets</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <?php
+            include "inc/navbar.php";        
+        ?>
     </header>
-
     <main>
         <section style="text-align: center; margin-top: 10vh;">
             <h1>Bonjour, je suis <span class="text-highlight">Développeur Junior</span></h1>
@@ -32,11 +22,11 @@
             <a href="projets.html" class="btn btn-primary">Explorer mes projets</a>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2026 - Portfolio Développeur PHP / React. Construit en HTML/CSS/JS natif.</p>
+    <?php
+        include "inc/footer.php";        
+    ?>    
     </footer>
-
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
